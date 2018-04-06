@@ -37,8 +37,7 @@ require(__DIR__ . "/../config.php");
                 </div>
                 <p class="lead">
                 <form class="form-group" action="index.php" method="post">
-                    <input id="url" name="url" type="url" class="form-control" autocomplete="on" placeholder="http://"
-                           autofocus required/>
+                    <input id="url" name="url" type="url" class="form-control" autocomplete="on" placeholder="http://" value="<?php if($config['default-url']) { echo $config['default-url'];}?>" autofocus required/>
                     <br>
                     <input id="go" class="btn btn-primary btn-lg" type="submit" value="<?php echo $lang["go"]; ?>"/>
                 </form>

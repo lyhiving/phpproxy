@@ -6,6 +6,7 @@ $config = array();
 $config['website-name'] = "在线工具包";
 $config['website-url'] = "http://p.xiee.website";
 $config['website-description'] = "不可多得的好工具";
+$config['default-url'] = 'https://www.youtube.com/results?search_query=%E5%8C%97%E7%BE%8E%E7%8E%A9%E5%85%B7';
 
 // a unique key that identifies this application - DO NOT LEAVE THIS EMPTY!
 $config['app_key'] = 'encode.xiee.website';
