@@ -9,8 +9,8 @@ require(__DIR__ . "/../config.php");
     <meta charset="utf-8">
     <meta name="description" content="<?php echo $config["website-description"]; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="http://www.iconarchive.com/download/i31446/studiomx/leomx/Web.ico"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="//www.iconarchive.com/download/i31446/studiomx/leomx/Web.ico"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 </head>
 <body>
 <div class="container text-center" style="margin-top:5%;">

@@ -52,7 +52,7 @@ require(__DIR__ . "/../config.php");
             </div>
         </div>
     </div>
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
     <script>
         $('#twitter').click(function () {
             $('#url').val('https://twitter.com');
